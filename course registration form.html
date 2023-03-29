@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Course Registration Details</title>
+</head>
+<body>
+<h1>Course Registration Form<h1>
+
+<form  action="https://www.flipkart.com/">
+<fieldset> 
+<legend>Personal Details</legend>
+<table> 
+<tr><td><label>First Name</label></td><td><input type="text" name="firstName" placeholder="Ex:Rohit"></td></tr>
+<tr><td><label>surname</label></td><td><input type="text" name="surName" placeholder="Ex:Ravinder"></td></tr>
+<tr><td><label>Mobile Number</label></td><td><input type="tel" name="mobileNumber" placeholder="Ex:984-456-7890"></td></tr>
+<tr><td><label>Email</label></td><td><input type="email" name="email" placeholder="Ex:rohit@rooman.net"></td></tr>
+<tr><td><label>password</label></td><td><input type="password" name="password" placeholder="min 5 characters" maxlength="5"></td></tr>
+<tr><td><label>Confirm Password</label></td><td><input type="password" name="confirmPassword" placeholder="min 5 characters" maxlength="5"></td></tr>
+<tr><td><label>DOB</label></td><td><input type="date" name="dateofbirth"></td></tr>
+<tr><td><label>Gender</label></td><td><input type="radio" name="gender" value="male">Male<input type="radio" name="gender" value="female">Female</td></tr>
+<tr><td><label>Select Country</label></td>
+<td><select name="country"><option vale="ind">India</option><option vale="usa">USA</option><option vale="eng">England</option></select></td></tr>
+<tr><td><label>Upload picture</label></td><td><input type="file" name="uploadPicture"></td></tr>
+<tr><td><input type="reset"></td></tr>
+</table>
+</fieldset>
+<fieldset>
+<legend>Course Details</legend>
+<table>
+<tr><td><label>Select Course<label></td><td><select name="selectCourse"><option value="jf">Java Full Stack</option><option value="pf">Python Full Stack</option><option value="df">Dotnet Full Stack</option></select></td></tr>
+<tr><td><label>Delivery Mode</label></td><td><input type="checkbox"><label>Online</label><input type="checkbox"><label>Offline</label></td></tr>
+<tr><td><label>Comments</label></td><td><textarea rows="4" columns="8"></textarea></td></tr>
+
+</table>
+
+</fieldset>
+
+<input type="submit">
+
+</form>
+</body>
+</html>
